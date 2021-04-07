@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url('./mountains-1412683__340.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#container{
+    width: 40%;
+    margin: 50px auto;
+}
+#form{
+    width: 100%;
+}
+#input{
+    height:30px;
+    width: 100%;
+    box-sizing:border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+}
+#leftsection{
+    float: left;
+    min-height:0px;
+    width: 50%;
+    background-color: transparent;
+}
+#rightsection{
+    float: right;
+    min-height:0px;
+    width: 50%;
+    background-color: transparent;
+}
+#info{
+    list-style: none;
+}
+img{
+    float: right;
+    margin-right:40px;
+    width: 50%;
+}
+.toggle{
+    display: none;
+}
+ul{
+    margin-top: 10px;
+}
+ul>li{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#184e77;
+    margin-bottom: 10px;
+}
