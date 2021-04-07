@@ -58,6 +58,8 @@ function detailsrightcontainer(parseddata){
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     while(list.firstChild) list.removeChild(list.firstChild);
+    const image=document.getElementById('weathericon');
+    image.src="";
     const searchText = form.elements[0].value;
     weatherinfo(searchText);
     form.elements[0].value = "";
